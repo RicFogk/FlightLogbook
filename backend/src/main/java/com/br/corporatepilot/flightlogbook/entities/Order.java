@@ -79,6 +79,17 @@ public class Order implements Serializable {
 		this.longitude = longitude;
 	}
 
+	
+	
+	
+	public Instant getMoment() {
+		return moment;
+	}
+
+	public void setMoment(Instant moment) {
+		this.moment = moment;
+	}
+
 	public OrderStatus getStatus() {
 		return status;
 	}
