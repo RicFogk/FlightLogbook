@@ -38,18 +38,31 @@ public class Order implements Serializable {
 	public Order() {
 	}
 
-	public Order(Long id, String address, Double latitude, Double longitude, OrderStatus status) {
-		super();
-		this.id = id;
-		this.address = address;
-		this.latitude = latitude;
-		this.longitude = longitude;
-		this.status = status;
-	}
+//	public Order(Long id, String address, Double latitude, Double longitude, OrderStatus status) {
+//		super();
+//		this.id = id;
+//		this.address = address;
+//		this.latitude = latitude;
+//		this.longitude = longitude;
+//		this.status = status;
+//	}
+	
+	
 
 	public Long getId() {
 		return id;
 	}
+
+	public Order(Long id, String address, Double latitude, Double longitude, Instant moment, OrderStatus status) {
+	super();
+	this.id = id;
+	this.address = address;
+	this.latitude = latitude;
+	this.longitude = longitude;
+	this.moment = moment;
+	this.status = status;
+	this.products = products;
+}
 
 	public void setId(Long id) {
 		this.id = id;
