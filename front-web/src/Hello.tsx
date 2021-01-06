@@ -6,7 +6,7 @@ type Props = {
 }
 
 function Hello({message} : Props){
-
+    // chamada para API para buscar os produtos
     useEffect(() => {
         console.log('componente iniciou');
     }, []);
