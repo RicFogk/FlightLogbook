@@ -1,19 +1,14 @@
 // NAO PRECISA MAIS IMPORTAR -->>   import React from 'react';
 import React from 'react';
 import './App.css';
-import Home from './Home';
 import Navbar from './Navbar';
+import Routes from './Routes';
+
 
 function App() {
-  return (
-    
-    //fragment
-    <>
-      <Navbar/>
-      <Home/>
-     
-    </>
-  );
+  return ( 
+      <Routes/>
+     );
 }
 
 export default App;
