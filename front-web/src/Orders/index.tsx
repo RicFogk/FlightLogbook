@@ -1,5 +1,5 @@
 
-import {ReactComponent as Logo} from './logo.svg';
+//import {ReactComponent as Logo} from './logo.svg';
 import React, { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import StepsHeader from './StepsHeader';
